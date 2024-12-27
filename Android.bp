@@ -10,7 +10,11 @@ cc_library_shared {
     name: "libfmjni",
 
     defaults: [
-        "qcom_libfmjni_defaults",
+        "compliance_checkmetadata",
+        "compliance_checkshare",
+        "compliance_dumpgraph",
+        "compliance_listshare",
+        "compliancenotice_bom",
     ],
 
     srcs: [
